@@ -3,8 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Montserrat;
+}
+
 .top{
     height: 50vh;
-    width: 60%;
-    background-image: url("");
+    background-image: url("./insurance_images2/hero-cover.3.png");
+    background-size: 100% 100%;
+}
+
+header{
+    display: flex;
+    margin-top: 3%;
+}
+li a {
+   text-decoration: none; 
+}
+li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: blueviolet;
+    width: 50%;
+
 }
