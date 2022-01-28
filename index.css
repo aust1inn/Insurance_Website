@@ -34,6 +34,15 @@ button {
 
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+}
+
 #peace , #set {
     background-color: white;
     border: 1px groove white;
