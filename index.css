@@ -17,20 +17,55 @@ body{
 header{
     display: flex;
     margin-top: 3%;
+    color: white;
+    justify-content: space-around;
 }
 li a {
    text-decoration: none; 
+
 }
 li {
     list-style: none;
+    margin-left: 4em;
+    color: white;
 }
-ul {
+.ul_top {
     display: flex;
-    justify-content: space-between;
 }
 button {
     background-color: blueviolet;
-    width: 50%;
+    width: 110%;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: blue;
+
+
+}
+.centre_top{
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10%;
+    height: 40vh;
+}
+
+#we_ensure{
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#we_know{
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 3%;
+}
+#Quote {
+    width: 10%;
+}
+#learn_more {
+    width: 10%;
 
 }
 
