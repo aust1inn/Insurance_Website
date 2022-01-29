@@ -192,3 +192,20 @@ background-color: pink;
      height: 50vh;
      background-color: white;
  }
+ .block_9{
+     height: 70vh;
+     background-color: #252B42;
+ }
+ .block_9b{
+     border: 2px solid black;
+     height: 60vh;
+     width: 40%;
+     position: relative;
+     left: 30%;
+     top: 50%;
+ }
+
+ .block_10{
+     background-color: pink;
+     height: 60vh;
+ }
