@@ -125,3 +125,17 @@ li {
     background-color: pink;
     opacity: 0.2;
 }
+.block_40{
+    display: flex;
+    justify-content: center;
+    color: royalblue;
+}
+
+#block_41 , #block_42 , #block_43 {
+    background-color: white;
+    justify-content: center;
+    margin: 2em;
+    font-size: x-small;
+    padding: 20px;
+    opacity: 1.1;
+}
