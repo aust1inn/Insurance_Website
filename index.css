@@ -22,6 +22,7 @@ header{
 }
 li a {
    text-decoration: none; 
+   color: white;
 
 }
 li {
@@ -64,7 +65,6 @@ li {
  #button2 {
         margin-top: 2%;
         display: flex;
-        border: 2px solid black;
         justify-content: center;
     }
 
@@ -73,11 +73,15 @@ li {
     background-color: blueviolet;
     color: white;
     border-radius: 20px;
-    height: 15vh;
+    height: 5vh;
+    width: 10%;
 }
 #learn_more {
     width: 10%;
     background-color: transparent;
+    border-radius: 20px;
+    height: 5vh;
+
 
 }
 
@@ -94,14 +98,27 @@ li {
     background-color: white;
     border: 1px  white;
     width: 28%;
-    height: 170px;
+    height: 25vh;
+    text-align: center;
+    font-size: x-small;
 }
 #satisfaction{
     border: 1px  white;
     width: 28%;
-    height: 170px;
+    height: 25vh;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
+#satisfaction img{
     background-color: blueviolet;
 }
+.peace_1 {
+    font-weight: bolder;
+}
+    
+
 #below_top{
     background-color: pink;
     height: 30vh;
@@ -115,18 +132,27 @@ li {
 }
 #block_3a , #block_3b , #block_3c{
     margin-left: 8em;
+    text-align: center;
+    justify-content: center;
 }
-#Peace , #set , #percent{
+#Peace , #set1 , #percent{
     font-weight: bolder;
 }
 .block_4{
     height: 70vh;
     background-color: pink;
+    color: darkslategrey;
 }
+.block_4a{
+    position: relative;
+    left: 3%;
+    text-align: center;
+}
+
 .block_40{
     display: flex;
     justify-content: center;
-    color: royalblue;
+    color: darkslategrey;
 }
 
 #block_41 , #block_42 , #block_43 {
@@ -140,10 +166,10 @@ li {
 block_4 :first-child{
     justify-content: center;
     margin: auto;
-    color: blue;
 }
-#Industry{
+#Industry , #pricing{
     font-weight: bolder;
+    font-size: x-large;
 }
 .block_5{
     display: flex;
@@ -163,9 +189,9 @@ block_4 :first-child{
     left: 25%;
 }
 .block_7{
-border: 2px solid black;  
-justify-items: center;
 background-color: pink;
+text-align: center;
+color: darkslategrey;
 }
  .block_8{
      background-color: pink;
