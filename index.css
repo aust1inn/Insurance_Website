@@ -28,7 +28,6 @@ li a {
 li {
     list-style: none;
     margin-left: 4em;
-    color: white;
 }
 .ul_top {
     display: flex;
@@ -199,12 +198,17 @@ color: darkslategrey;
      display: flex;
      justify-content: center;
      align-items: center;
+     color: darkslategrey;
+     text-align: center;
+     font-size: x-small;
+     font-weight: bolder;
  }
  #block_8a{
     background-color: white;
     width: 20%;
     height: 50vh;
     border: 1px solid blueviolet;
+    text-align: center;
  }
  #block_8b{
      width: 20%;
@@ -217,6 +221,17 @@ color: darkslategrey;
      border: solid 2px blueviolet;
      height: 50vh;
      background-color: white;
+ }
+ #block_8a ul li , #block_8b ul li , #block_8c ul li{
+     padding: 5px;
+ }
+ .block_8button{
+     background-color: darkviolet;
+     color: white;
+     padding: 5px;
+     font-weight: bolder;
+     border: 1px groove darkviolet;
+     margin-top: 15px;
  }
  .block_9{
      height: 70vh;
@@ -302,21 +317,26 @@ color: darkslategrey;
      width: 75%;
      display: flex;
      position: relative;
-     left: 20%;
+     left: 10%;
      top: 10%;
  }
  .block_11a , .block_11b , .block_11c , .block_11d , .block_11e {
-     width: 15%;
-     height: 25vh;
-     border: 2px solid black;
+     width: 20%;
+     height: 30vh;
      font-size: x-small;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
+ .block_11a li , .block_11b li , .block_11c li, .block_11d li , .block_11e li{
+     padding: 5px;
  }
  footer{
      display: flex;
      justify-content: space-around;
      background-color: pink;
      font-size: x-small;
-     padding: 1%;
+     padding: 5px;
  }
  footer img {
      background-color: pink;
