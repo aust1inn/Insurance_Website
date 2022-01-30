@@ -232,3 +232,22 @@ background-color: pink;
      background-color: blueviolet;
      color: white;
  }
+ .block_11{
+     display: flex;
+     background-color: white;
+     font-size: xx-small;
+     height: 30vh;
+ }
+ .block_110{
+     width: 75%;
+     display: flex;
+     position: relative;
+     left: 20%;
+     top: 10%;
+ }
+ .block_11a , .block_11b , .block_11c , .block_11d , .block_11e {
+     width: 15%;
+     height: 25vh;
+     border: 2px solid black;
+     font-size: x-small;
+ }
