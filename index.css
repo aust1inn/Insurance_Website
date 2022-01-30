@@ -251,3 +251,10 @@ background-color: pink;
      border: 2px solid black;
      font-size: x-small;
  }
+ footer{
+     display: flex;
+     justify-content: space-around;
+     background-color: pink;
+     font-size: x-small;
+     padding: 1%;
+ }
