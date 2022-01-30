@@ -219,7 +219,11 @@ background-color: pink;
 
  .block_10{
      background-color: pink;
-     height: 60vh;
-     display: flex;
-     justify-content: space-around;
+     height: 50vh;
+ }
+ .block_10a{
+    display: flex;
+    position: relative;
+    left: 33%;
+    top: 70%;
  }
