@@ -196,6 +196,17 @@ background-color: pink;
      height: 70vh;
      background-color: #252B42;
  }
+ .block_9a{
+     font-size: xx-small;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     padding: 20px;
+ }
+ #block_9ab{
+     font-size: x-large;
+     font-weight: bold;
+ }
  .block_9b{
      height: 60vh;
      width: 40%;
@@ -257,4 +268,7 @@ background-color: pink;
      background-color: pink;
      font-size: x-small;
      padding: 1%;
+ }
+ footer img {
+     background-color: pink;
  }
