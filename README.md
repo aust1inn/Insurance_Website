@@ -15,15 +15,16 @@
 
 ## Description
 ### Insurance website by Austin Omondi
-This is a website detailing the offers and benefits of an insurance.
+This is a website detailing the offers and benefits of an insurance.Th website has excellent graphics and buttons that
+prompts the user to log in, sign up or subsribe to the various offers. The website is responsive to both desktops and mobile phones.
 ## Demo
 Below is a working of a live demo
 
 https://github.com/aust1inn/Insurance_Website
 
+## Landing Page
 ![This is an image](./insurance_images2/insurance.png
 )
-
 
 ## Technologies Used
 An HTML file was used to create the website
