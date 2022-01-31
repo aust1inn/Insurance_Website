@@ -421,5 +421,18 @@
                  justify-content: space-around;
                  height: 80vh;
              }
+             .subscribe{
+                 width: 100%;
+                 position: relative;
+                 left: 0;
+             }
+             .block_8{
+                 flex-direction: column;
+                 height: 200vh;
+             }
+             #block_8a , #block_8b , #block_8c {
+                 height: 60vh;
+                 width: 40%;
+             }
          } 
        
