@@ -21,6 +21,10 @@ Below is a working of a live demo
 
 https://github.com/aust1inn/Insurance_Website
 
+![This is an image](https://github.com/aust1inn/Insurance_Website
+)
+
+
 ## Technologies Used
 An HTML file was used to create the website
 
