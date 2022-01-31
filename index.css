@@ -456,11 +456,15 @@
                  left: 0;
              }
              .block_11{
-                 height: 100vh;
+                 height: 150vh;
                  flex-direction: column;
              }
              .block_110{
                  flex-direction: column;
+             }
+             .block_11a , .block_11b , .block_11c , .block_11d , .block_11e{
+                 width: 60%;
+                 height: 40vh;
              }
          } 
        
