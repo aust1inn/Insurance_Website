@@ -119,7 +119,7 @@
             
         
         #below_top{
-            background-color: rgb(252, 228, 232);
+            background-color: snow;
             height: 30vh;
         }
         .block_3{
@@ -139,7 +139,7 @@
         }
         .block_4{
             height: 70vh;
-            background-color: rgb(252, 228, 232);
+            background-color: snow;
             color: darkslategrey;
         }
         .block_4a{
@@ -172,7 +172,7 @@
         }
         .block_5{
             display: flex;
-            background-color: rgb(252, 228, 232);
+            background-color: snow;
         }
         .block_5a{
             position: relative;
@@ -185,7 +185,7 @@
             margin-left: 5em;
         }
         .block_6{
-            background-color: rgb(252, 228, 232);
+            background-color: snow;
             height: 30vh;
         }
         .subscribe{
@@ -223,12 +223,12 @@
             width: 25%;
         }
         .block_7{
-        background-color: rgb(252, 228, 232);
+        background-color: snow;
         text-align: center;
         color: darkslategrey;
         }
          .block_8{
-             background-color: rgb(252, 228, 232);
+             background-color: snow;
              height: 70vh;
              display: flex;
              justify-content: center;
@@ -260,6 +260,11 @@
          }
          #block_8a ul li , #block_8b ul li , #block_8c ul li{
              padding: 5px;
+         }
+         #dollars{
+            font-size: x-large;
+            color: blueviolet;
+            font-weight: bolder;
          }
          .block_8button{
              background-color: darkviolet;
@@ -320,6 +325,7 @@
              height: 3vh;
              border: 1px solid lightblue;
              margin-left: 20%;
+             background-color: snow;
          }
          #book_appointment {
              color: white;
@@ -332,14 +338,22 @@
          }
         
          .block_10{
-            background-color: rgb(252, 228, 232);
+            background-color: snow;
              height: 50vh;
          }
          .block_10a{
             display: flex;
             position: relative;
-            left: 33%;
+            left: 20%;
             top: 70%;
+         }
+         #consulting{
+             font-weight: bolder;
+             color: darkslategray;
+         }
+         #quick{
+             color: darkslategray;
+             font-size: x-small;
          }
          .button_10{
              margin-left: 4em;
@@ -373,7 +387,7 @@
          footer{
              display: flex;
              justify-content: space-around;
-             background-color: rgb(252, 228, 232);
+             background-color: snow;
              font-size: x-small;
              padding: 5px;
          }
