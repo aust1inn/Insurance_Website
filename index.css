@@ -395,7 +395,7 @@
                  color: grey;
                  height: 50vh;
              }
-             header ul li a {
+             header ul li  {
                  color: grey;
                  margin-top: 10px;
              }
