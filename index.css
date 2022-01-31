@@ -377,6 +377,12 @@
                  flex-direction: column;
                  background-color: pink;
                  text-align: center;
+                 color: grey;
+                 height: 40vh;
+             }
+             header li a {
+                 color: grey;
+                 margin-top: 5px;
              }
              .top{
                  display: flex;
@@ -388,6 +394,32 @@
              }
              .boxes{
                  flex-direction: column;
+                 height: 100vh;
+                 position: relative;
+                 align-items: center;
+             }
+             .block_4{
+                 display: flex;
+                 flex-direction: column;
+                 overflow: visible;
+                 height: 180vh;
+             }
+             .block_40{
+                 flex-direction: column;
+                 align-items: center;
+                 overflow: visible;
+             }
+             #block_41, #block_42, #block_43{
+                 width: 50%;
+                 height: 40vh;
+                 overflow: visible;
+             }
+
+             .block_5{
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: space-around;
+                 height: 80vh;
              }
          } 
        
