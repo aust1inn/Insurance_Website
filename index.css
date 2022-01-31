@@ -1,4 +1,4 @@
-    @media only screen and (min-width: 480px){
+
         *{
             padding: 0;
             margin: 0;
@@ -30,6 +30,7 @@
         }
         li {
             list-style: none;
+            margin-left: 4em;
         }
         .ul_top {
             display: flex;
@@ -255,6 +256,8 @@
          .block_9{
              height: 70vh;
              background-color: #252B42;
+             position: relative;
+             overflow: visible;
          }
          .block_9a{
              font-size: xx-small;
@@ -270,10 +273,11 @@
          .block_9b{
              height: 60vh;
              width: 40%;
-             position: relative;
+             position: absolute;
              left: 30%;
-             top: 5%;
+             top: 50%;
              display: flex;
+             
          }
         
          .block_9ba{
@@ -360,5 +364,10 @@
              background-color: pink;
          }
     
-    }
     
+         @media only screen and (max-width: 480px)  {
+             .block_3 {
+                 flex-direction: column;
+             }
+         } 
+       
