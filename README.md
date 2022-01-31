@@ -21,7 +21,7 @@ Below is a working of a live demo
 
 https://github.com/aust1inn/Insurance_Website
 
-![This is an image](https://github.com/aust1inn/Insurance_Website
+![This is an image](
 )
 
 
