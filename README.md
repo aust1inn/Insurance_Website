@@ -76,6 +76,6 @@ Copyright (c) [2022] [Austin Omondi]
  SOFTWARE.
  
 ## Authors Info
-Austin Otieno Omondi
+Austine Otieno Omondi
 
 email at austinotieno364@gmail.com
