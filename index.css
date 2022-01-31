@@ -434,5 +434,33 @@
                  height: 60vh;
                  width: 40%;
              }
+             .block_9{
+                 height: 120vh;
+             }
+             .block_9a{
+                 height: 60vh;
+                 flex-direction: column;
+                 align-items: center;
+             }
+             .block_9b{
+                 width: 100%;
+                 left: 0%;
+             }
+             .block_10{
+                 height: 25vh;
+                 align-items: center;
+                 text-align: center;
+             }
+             .block_10a{
+                 position: relative;
+                 left: 0;
+             }
+             .block_11{
+                 height: 100vh;
+                 flex-direction: column;
+             }
+             .block_110{
+                 flex-direction: column;
+             }
          } 
        
