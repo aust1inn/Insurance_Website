@@ -1,18 +1,27 @@
 # Table of Contents
   -Description
   
-  -Installation
+  -Demo
+  
+  -Technologies Used
   
   -Development
   
   -Requirements
   
+  -Setup Instructions
+  
   -License
 
 ## Description
-### Insurance
+### Insurance website by Austin Omondi
 This is a website detailing the offers and benefits of an insurance.
-## Installation
+## Demo
+Below is a working of a live demo
+
+https://github.com/aust1inn/Insurance_Website
+
+## Technologies Used
 An HTML file was used to create the website
 
 A CSS file was used to style and polish the website
