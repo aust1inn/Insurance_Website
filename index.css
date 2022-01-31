@@ -70,20 +70,18 @@
             }
         
         #Quote {
-            width: 10px;
+            width: 15%;
             background-color: blueviolet;
             color: white;
             border-radius: 20px;
-            height: 5vh;
-            width: 10%;
+            height: 6vh;
         }
         #learn_more {
-            width: 10%;
+            width: 15%;
             background-color: transparent;
             border-radius: 20px;
-            height: 5vh;
-        
-        
+            height: 6vh;
+               
         }
         
         .boxes {
@@ -174,18 +172,26 @@
         }
         .block_5{
             display: flex;
-            justify-content: space-evenly;
             background-color: rgb(252, 228, 232);
-
+        }
+        .block_5a{
+            position: relative;
+            left: 15%;
+            width: 70%;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .block_5 img {
+            margin-left: 5em;
         }
         .block_6{
             background-color: rgb(252, 228, 232);
             height: 30vh;
         }
         .subscribe{
-            background-color: blue;
+            background-color: darkblue;
             height: 100px;
-            width: 60%;
+            width: 55%;
             position: relative;
             top: 10%;
             left: 25%;
@@ -194,21 +200,27 @@
             font-size: x-large;
             font-weight: bolder;
         }
+        .block_6x{
+            display: flex;
+            position: absolute;
+            right: 10%;
+            top: 25%;
+            width: 40%;
+            border: 1px solid white;
+            height: 30px;
+        }
         #block_6a{
             background-color: white;
-            width: 25%;
-            height: 30%;
-            position: relative;
-            top: 40%;
-            left: 40%;
-            
+            width: 75%;
+            height: 100%;
+            color: darkslategray;
+            font-size: xx-small;
+            font-weight: 900;         
         }
         #block_6button{
-            position: relative;
-            top: 40%;
-            height: 30%;
+            height: 100%;
             background-color: violet;
-            width: 15%;
+            width: 25%;
         }
         .block_7{
         background-color: rgb(252, 228, 232);
@@ -381,19 +393,23 @@
                  background-color: pink;
                  text-align: center;
                  color: grey;
-                 height: 40vh;
+                 height: 50vh;
              }
-             header li a {
+             header ul li a {
                  color: grey;
-                 margin-top: 5px;
+                 margin-top: 10px;
              }
              .top{
                  display: flex;
                  flex-direction: column;
                  height: 150vh;
+                 background-size: 100% 100%;
              }
              .ul_top{
                  flex-direction: column;
+             }
+             #Quote , #learn_more{
+                 width: 30%;
              }
              .boxes{
                  flex-direction: column;
@@ -423,6 +439,13 @@
                  align-items: center;
                  justify-content: space-around;
                  height: 80vh;
+             }
+             .block_5a{
+                 display: flex;
+                 flex-direction: column;
+             }
+             .block_5a img{
+                 margin-top: 3em;
              }
              .subscribe{
                  width: 100%;
