@@ -121,7 +121,7 @@
             
         
         #below_top{
-            background-color: pink;
+            background-color: rgb(252, 228, 232);
             height: 30vh;
         }
         .block_3{
@@ -141,7 +141,7 @@
         }
         .block_4{
             height: 70vh;
-            background-color: pink;
+            background-color: rgb(252, 228, 232);
             color: darkslategrey;
         }
         .block_4a{
@@ -175,10 +175,11 @@
         .block_5{
             display: flex;
             justify-content: space-evenly;
-            background-color: pink;
+            background-color: rgb(252, 228, 232);
+
         }
         .block_6{
-            background-color: pink;
+            background-color: rgb(252, 228, 232);
             height: 30vh;
         }
         .subscribe{
@@ -207,12 +208,12 @@
             width: 15%;
         }
         .block_7{
-        background-color: pink;
+        background-color: rgb(252, 228, 232);
         text-align: center;
         color: darkslategrey;
         }
          .block_8{
-             background-color: pink;
+             background-color: rgb(252, 228, 232);
              height: 70vh;
              display: flex;
              justify-content: center;
@@ -316,7 +317,7 @@
          }
         
          .block_10{
-             background-color: pink;
+            background-color: rgb(252, 228, 232);
              height: 50vh;
          }
          .block_10a{
@@ -349,6 +350,7 @@
              display: flex;
              flex-direction: column;
              text-align: center;
+             padding: 30px;
          }
          .block_11a li , .block_11b li , .block_11c li, .block_11d li , .block_11e li{
              padding: 5px;
@@ -356,7 +358,7 @@
          footer{
              display: flex;
              justify-content: space-around;
-             background-color: pink;
+             background-color: rgb(252, 228, 232);
              font-size: x-small;
              padding: 5px;
          }
@@ -367,6 +369,24 @@
     
          @media only screen and (max-width: 480px)  {
              .block_3 {
+                 flex-direction: column;
+             }
+
+             header{
+                 display: flex;
+                 flex-direction: column;
+                 background-color: pink;
+                 text-align: center;
+             }
+             .top{
+                 display: flex;
+                 flex-direction: column;
+                 height: 150vh;
+             }
+             .ul_top{
+                 flex-direction: column;
+             }
+             .boxes{
                  flex-direction: column;
              }
          } 
