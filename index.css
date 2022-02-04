@@ -16,7 +16,11 @@
             background-size: 100% 100%;
             background-blend-mode: darken;
         }
-        
+        .overlay{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
         header{
             display: flex;
             color: white;
@@ -36,13 +40,11 @@
             display: flex;
         }
         #become {
-            background-color: blueviolet;
+            background-color: #23A6F0;
             color: white;
             font-weight: bolder;
             font-size: 15px;
-            border: blue;
-        
-        
+            border: #23A6F0;
         }
         .centre_top{
             margin: auto;
@@ -71,7 +73,7 @@
         
         #Quote {
             width: 15%;
-            background-color: blueviolet;
+            background-color: #23A6F0;
             color: white;
             border-radius: 20px;
             height: 6vh;
@@ -81,7 +83,6 @@
             background-color: transparent;
             border-radius: 20px;
             height: 6vh;
-               
         }
         
         .boxes {
@@ -105,13 +106,13 @@
             border: 1px  white;
             width: 28%;
             height: 25vh;
-            background-color: blueviolet;
+            background-color: #23A6F0;
             color: white;
             text-align: center;
             font-size: x-small;
         }
         #satisfaction img{
-            background-color: blueviolet;
+            background-color: #23A6F0;
         }
         .peace_1 {
             font-weight: bolder;
@@ -189,7 +190,7 @@
             height: 30vh;
         }
         .subscribe{
-            background-color: darkblue;
+            background-image: linear-gradient(to right, #252B42 ,fuchsia);
             height: 100px;
             width: 55%;
             position: relative;
@@ -219,7 +220,7 @@
         }
         #block_6button{
             height: 100%;
-            background-color: violet;
+            background-color: #23A6F0;
             width: 25%;
         }
         .block_7{
@@ -242,36 +243,36 @@
             background-color: white;
             width: 15%;
             height: 50vh;
-            border: 1px solid blueviolet;
+            border: 1px solid #23A6F0;
             text-align: center;
          }
          #block_8b{
              width: 15%;
-             border: blue 1px solid;
+             border: #23A6F0 1px solid;
              background-color: #252B42;
              height: 55vh;
              color: white;
          }
          #block_8c{
              width: 15%;
-             border: solid 2px blueviolet;
+             border: solid 2px #23A6F0;
              height: 50vh;
              background-color: white;
          }
          #block_8a ul li , #block_8b ul li , #block_8c ul li{
-             padding: 5px;
+             padding: 8px;
          }
          #dollars{
             font-size: x-large;
-            color: blueviolet;
+            color: #23A6F0;
             font-weight: bolder;
          }
          .block_8button{
-             background-color: darkviolet;
+             background-color: #23A6F0;
              color: white;
              padding: 5px;
              font-weight: bolder;
-             border: 1px groove darkviolet;
+             border: 1px groove #23A6F0;
              margin-top: 15px;
          }
          .block_9{
@@ -298,7 +299,6 @@
              left: 30%;
              top: 50%;
              display: flex;
-             
          }
         
          .block_9ba{
@@ -311,7 +311,7 @@
              width: 65%;
              height: 100%;
              background-color: white;
-             color: purple;
+             color: #23A6F0;
          }
          .block_9bb p{
              margin-left: 20%;
@@ -322,14 +322,17 @@
          }
          #full_name , #email_address , #time , #department , #time {
              width: 70%;
-             height: 3vh;
+             height: 4vh;
              border: 1px solid lightblue;
              margin-left: 20%;
              background-color: snow;
+             font-size: xx-small;
+             color: darkslategray;
          }
+         
          #book_appointment {
              color: white;
-             background-color: blueviolet;
+             background-color: #23A6F0;
              margin-top: 10%;
              margin-left: 20%;
              width: 60%;
@@ -346,6 +349,7 @@
             position: relative;
             left: 20%;
             top: 70%;
+            
          }
          #consulting{
              font-weight: bolder;
@@ -357,7 +361,7 @@
          }
          .button_10{
              margin-left: 4em;
-             background-color: blueviolet;
+             background-color: #23A6F0;
              color: white;
          }
          .block_11{
@@ -407,10 +411,10 @@
                  background-color: pink;
                  text-align: center;
                  color: grey;
-                 height: 50vh;
+                 height: 40vh;
              }
              header ul li  {
-                 color: grey;
+                 color: black;
                  margin-top: 10px;
              }
              .top{
@@ -430,6 +434,15 @@
              }
              #Quote , #learn_more{
                  width: 30%;
+             }
+             #peace , #set , #satisfaction{
+                 width: 90%;
+                 height: 20vh;
+             }
+             #button2{
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
              }
              .boxes{
                  flex-direction: column;
